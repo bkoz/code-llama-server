@@ -3,3 +3,4 @@ text-generation==0.4.1
 gradio
 transformers
 torch
+sentencepiece
