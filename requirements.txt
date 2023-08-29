@@ -1,5 +1,5 @@
 huggingface_hub
-text-generation==0.4.1
+text-generation
 gradio
 transformers
 torch
