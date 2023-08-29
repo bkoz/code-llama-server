@@ -1,6 +1,6 @@
 huggingface_hub
 text-generation
 gradio
-transformers
 torch
 sentencepiece
+transformers @ git+https://github.com/huggingface/transformers.git@50573c648ae953dcc1b94d663651f07fb02268f4
