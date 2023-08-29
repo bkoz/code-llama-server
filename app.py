@@ -43,6 +43,6 @@ textbox = gr.Textbox(label="Let's write some Python:", placeholder="Code goes he
 
 gr.Interface(fn=greet, inputs=textbox, outputs="text",
     examples=["def fibonacci(n: int) -> int:", "def is_prime(n: int) -> Boolean"])\
-    .launch()
+    .launch(server_name='0.0.0.0', server_port=8080)
 
 
