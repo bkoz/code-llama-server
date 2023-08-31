@@ -42,7 +42,7 @@ print(f'==> Time to load pipeline = {time.time() - t0}')
 textbox = gr.Textbox(label="Let's write some Python:", placeholder="Code goes here", lines=2)
 
 gr.Interface(fn=greet, inputs=textbox, outputs="text",
-    examples=["def fibonacci(n: int) -> int:", "def is_prime(n: int) -> Boolean"])\
+    examples=["def fibonacci(n: int) -> int:", "def is_prime(n: int) -> bool:"])\
     .launch(server_name='0.0.0.0', server_port=8080)
 
 
